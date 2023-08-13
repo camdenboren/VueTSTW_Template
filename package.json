@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "devTW": "start npx tailwindcss -i ./tailwind/input.css -o ./docs/styles.css --watch & start npx tailwindcss -i ./tailwind/input.css -o ./src/styles.css --watch",
+    "devTS": "start npx tsc -w & start npx tsc --outDir ./docs -w"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vue": "^3.3.4"
+  }
+}

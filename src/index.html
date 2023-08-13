@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body class = "bg-gray-950 text-white flex justify-center items-center h-screen">
+    <div id="app">
+        <h1 class="text-xl flex justify-center bold">{{ message }}</h1>
+        <div class="space-x-1">
+            <button @click="reverseMessage" 
+                class="bg-transparent text-white border border-white hover:bg-gray-700 rounded px-1 py-1">
+                Reverse Message
+            </button>
+            <button @click="message += '!'" 
+                class="bg-transparent text-white border border-white hover:bg-gray-700 rounded px-1 py-1">
+                Append "!"
+            </button>
+        </div>
+        <a href="https://vuejs.org" @click.prevent="notify"
+            class="underline flex justify-center">A link with e.preventDefault
+        </a>
+    </div>
+    <script type="importmap" >
+        {
+            "imports" : {
+                "vue": "./vue.js"
+            }
+        }
+    </script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
