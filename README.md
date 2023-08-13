@@ -13,3 +13,5 @@
 &emsp;Ctrl+C to exit terminal windows  
 -To prod  
 &emsp;purge CSS if desired, otw, no build needed  
+
+Deployed at: https://camdenboren.github.io/VueTSTW_Template/
