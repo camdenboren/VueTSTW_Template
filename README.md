@@ -4,12 +4,12 @@
 -Also includes TailwindCSS  
 
 -Easy to deploy to Github Pages  
-    -On GH: go to settings -> pages -> make sure you're on preferred branch w/ /docs selected, then press save  
+&emsp;-On GH: go to settings -> pages -> make sure you're on preferred branch w/ /docs selected, then press save  
 -Meant for use in VS Code (esp w/ Vue's Volar and Typescript Support Extensions installed)  
 -Made in Windows though it may also work in Linux. Dev commands must be modified to work in Mac OS  
 
 -To dev:  
-    npm run devTS  
-    Ctrl+C to exit terminal windows  
+&emsp;npm run devTS  
+&emsp;Ctrl+C to exit terminal windows  
 -To prod  
-    purge CSS if desired, otw, no build needed  
+&emsp;purge CSS if desired, otw, no build needed  
