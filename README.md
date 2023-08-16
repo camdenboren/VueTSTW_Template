@@ -9,6 +9,7 @@
 -Made in Windows though it may also work in Linux. Dev commands must be modified to work in Mac OS  
 
 -To dev:  
+&emsp;npm install  
 &emsp;npm run devTS  
 &emsp;Ctrl+C to exit terminal windows  
 -To prod  
