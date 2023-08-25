@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "devTW": "start npx tailwindcss -i ./tailwind/input.css -o ./docs/styles.css --watch & start npx tailwindcss -i ./tailwind/input.css -o ./src/styles.css --watch",
-    "devTS": "start npx tsc -w & start npx tsc --outDir ./docs -w"
+    "devTW": "npx tailwindcss -i ./tailwind/input.css -o ./docs/styles.css --watch & npx tailwindcss -i ./tailwind/input.css -o ./src/styles.css --watch",
+    "devTS": "npx tsc -w & npx tsc --outDir ./docs -w"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3",
