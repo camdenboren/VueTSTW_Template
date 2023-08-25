@@ -11,7 +11,7 @@
 -To dev:  
 &emsp;npm install  
 &emsp;npm run devTS  
-&emsp;Ctrl+C to exit terminal windows  
+&emsp;Ctrl+C to exit tsc watch mode  
 -To prod  
 &emsp;purge CSS if desired, otw, no build needed  
 
