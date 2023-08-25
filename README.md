@@ -6,7 +6,7 @@
 -Easy to deploy to Github Pages  
 &emsp;-On GH: go to settings -> pages -> make sure you're on preferred branch w/ /docs selected, then press save  
 -Meant for use in VS Code (esp w/ Vue's Volar and Typescript Support Extensions installed)  
--Made in Windows though it may also work in Linux. Dev commands must be modified to work in Mac OS  
+-Should work with Windows, Mac, and Linux  
 
 -To dev:  
 &emsp;npm install  
